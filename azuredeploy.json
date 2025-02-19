@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sites_name": {
-            "defaultValue": "PleaseChangeThisName",
+            "defaultValue": "InfraShieldAi_CC",
             "type": "string"
         },
         "accounts_name": {
-            "defaultValue": "PleaseChangeThisName",
+            "defaultValue": "InfraShieldAi_CC",
             "type": "string"
         },
         "website_sku": {
@@ -30,7 +30,7 @@
     },
     "variables": {
         "appServicePlanPortalName": "[concat('AppServicePlan-', parameters('sites_name'))]",
-        "repoUrl": "https://github.com/JayRHa/GPTDeviceTroubleshooter.git"
+        "repoUrl": "https://github.com/JayRHa/InfraShieldAI.git"
     },
     "resources": [
         {
@@ -79,8 +79,8 @@
             "properties": {
                 "model": {
                     "format": "OpenAI",
-                    "name": "gpt-35-turbo",
-                    "version": "0301"
+                    "name": "gpt-4",
+                    "version": "0613"
                 },
                 "versionUpgradeOption": "OnceNewDefaultVersionAvailable",
                 "raiPolicyName": "Microsoft.Default"
