@@ -3,7 +3,7 @@ import os
 from modules.utility import *
 from msal_streamlit_authentication import msal_authentication
 
-st.set_page_config(page_title="GPT Intune Device Troubleshooter", page_icon ="chart_with_upwards_trend", layout = 'wide')
+st.set_page_config(page_title="InfraShieldAI Cloud Commander", page_icon ="chart_with_upwards_trend", layout = 'wide')
 
 #################################################################################
 ################################# Vars ##########################################
