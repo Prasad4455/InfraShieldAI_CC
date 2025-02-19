@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sites_name": {
-            "defaultValue": "InfraShieldAi_CC",
+            "defaultValue": "InfraShieldAiCC",
             "type": "string"
         },
         "accounts_name": {
-            "defaultValue": "InfraShieldAi_CC",
+            "defaultValue": "InfraShieldAiCC",
             "type": "string"
         },
         "website_sku": {
@@ -30,7 +30,7 @@
     },
     "variables": {
         "appServicePlanPortalName": "[concat('AppServicePlan-', parameters('sites_name'))]",
-        "repoUrl": "https://github.com/JayRHa/InfraShieldAI.git"
+        "repoUrl": "https://github.com/Prasad4455/InfraShieldAI_CC.git"
     },
     "resources": [
         {
